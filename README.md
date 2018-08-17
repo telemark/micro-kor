@@ -59,3 +59,10 @@ docker run -d \
   --name micro-kor \
   telemark/micro-kor
  ```
+
+
+## License
+
+[MIT](LICENSE)
+
+![Robohash image of avtale-logg](https://robots.kebabstudios.party/avtale-logg.png "Robohash image of avtale-logg")
