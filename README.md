@@ -56,6 +56,6 @@ http://localhost:3000/personInfo
 docker run -d \
   -p 3000:3000 \
   -E docker.env \
-  --name micro-dsf \
-  telemark/micro-dsf
+  --name micro-kor \
+  telemark/micro-kor
  ```
