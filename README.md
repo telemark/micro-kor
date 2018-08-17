@@ -9,7 +9,7 @@ Retrives token from difi with [server-to-server-oauth2](https://difi.github.io/i
 
 ## API
 
-### POST ```/personInfo```
+### POST ```/personinfo```
 
 **Request**
 
@@ -47,7 +47,7 @@ A array with one or more personal ids.
 curl -k -X POST \
 -H "Authorization: <INSERT-TOKEN>" \
 -d '['26118642424']' \
-http://localhost:3000/personInfo
+http://localhost:3000/personinfo
 ```
 
 ## Run with docker

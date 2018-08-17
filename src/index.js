@@ -16,7 +16,7 @@ router.use(handleUnauthorized)
 
 // ROUTES
 router.get('/', handler.getFrontpage)
-router.post('/personInfo', handler.getPersonInfo)
+router.post('/personinfo', handler.getPersonInfo)
 
 module.exports = (request, response) => {
   router(request, response, finalhandler(request, response))
