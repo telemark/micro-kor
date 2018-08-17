@@ -1,0 +1,16 @@
+{
+  "type": "docker",
+  "features": {
+    "cloud": "v2"
+  },
+  "alias": "kor.tjeneste.win",
+  "env": {
+    "NODE_ENV": "production",
+    "KOR_SECRET": "@kor-secret",
+    "KOR_URL": "https://oidc.difi.no/",
+    "KOR_CERT": "@kor-cert",
+    "KOR_PRIVATE_KEY": "@kor-private-key",
+    "KOR_ISSUER": "@kor-issuer",
+    "KOR_SCOPE": "global/kontaktinformasjon.read"
+  }
+}

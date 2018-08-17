@@ -1,36 +1,11 @@
-###########################################################
-#
-# Dockerfile for micro-kor
-#
-###########################################################
+FROM mhart/alpine-node:10 as base
+WORKDIR /usr/src
+COPY package.json package-lock.json /usr/src/
+RUN npm i --production
+COPY . .
 
-# Setting the base to nodejs 10
-FROM mhart/alpine-node:10
-
-# Maintainer
-MAINTAINER Jonas Enge
-
-#### Begin setup ####
-
-# Installs docker
-
-# Extra tools for native dependencies
-# RUN apk add --no-cache make gcc g++ python
-
-# Bundle app source
-COPY . /src
-
-# Change working directory
-WORKDIR "/src"
-
-# Install dependencies
-RUN npm install --production
-
-# Env variables
-
-# Expose 3000
-EXPOSE 3000
-
-# Startup
-ENTRYPOINT npm start
-
+FROM mhart/alpine-node:base-10
+WORKDIR /usr/src
+ENV NODE_ENV="production"
+COPY --from=base /usr/src .
+CMD ["node", "./node_modules/.bin/micro"]

@@ -48,6 +48,3 @@ yarn.lock
 
 # dotenv
 .env
-
-# package-lock
-package-lock.json
