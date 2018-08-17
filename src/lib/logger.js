@@ -1,5 +1,5 @@
 const config = require('../config')
-const pkg = require('../package.json')
+const pkg = require('../../package.json')
 
 module.exports = (level, message) => {
   if (config.debug === true) {
