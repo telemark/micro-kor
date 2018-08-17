@@ -16,12 +16,12 @@ Retrives token from difi with [server-to-server-oauth2](https://difi.github.io/i
 A array with one or more personal ids.
 
 ```json
-['26118642424']
+["26118642424"]
 ```
 
 **Response**
 
-```json
+```js
 {
   personer: [
     {
