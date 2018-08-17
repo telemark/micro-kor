@@ -65,4 +65,4 @@ docker run -d \
 
 [MIT](LICENSE)
 
-![Robohash image of avtale-logg](https://robots.kebabstudios.party/avtale-logg.png "Robohash image of avtale-logg")
+![Robohash image of micro-kor](https://robots.kebabstudios.party/micro-kor.png "Robohash image of micro-kor")
