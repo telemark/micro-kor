@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/maccyber/micro-kor.svg?branch=master)](https://travis-ci.org/maccyber/micro-kor)
+[![Build Status](https://travis-ci.org/telemark/micro-kor.svg?branch=master)](https://travis-ci.org/telemark/micro-kor)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 # micro-kor
