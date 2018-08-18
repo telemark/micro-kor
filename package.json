@@ -27,6 +27,13 @@
     "url": "https://github.com/maccyber"
   },
   "license": "MIT",
+  "contributors": [
+    {
+      "name": "Geir Gåsodden",
+      "email": "geir.gasodden@pythonia.no",
+      "url": "https://github.com/zrrrzzt"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/telemark/micro-kor/issues"
   },
