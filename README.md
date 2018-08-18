@@ -64,5 +64,3 @@ docker run -d \
 ## License
 
 [MIT](LICENSE)
-
-![Robohash image of micro-kor](https://robots.kebabstudios.party/micro-kor.png "Robohash image of micro-kor")

@@ -1,4 +1,5 @@
 {
+  "name": "micro-kor",
   "type": "docker",
   "features": {
     "cloud": "v2"

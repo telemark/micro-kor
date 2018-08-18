@@ -8,11 +8,13 @@
     "dev": "micro-dev -H localhost",
     "test": "standard && ava",
     "coverage": "nyc ava",
-    "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls"
+    "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install",
+    "deploy": "npm test && now && now alias"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maccyber/micro-kor.git"
+    "url": "git+https://github.com/telemark/micro-kor.git"
   },
   "keywords": [
     "difi",
@@ -26,9 +28,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/maccyber/micro-kor/issues"
+    "url": "https://github.com/telemark/micro-kor/issues"
   },
-  "homepage": "https://github.com/maccyber/micro-kor#readme",
+  "homepage": "https://github.com/telemark/micro-kor#readme",
   "devDependencies": {
     "ava": "0.25.0",
     "axios": "0.18.0",
