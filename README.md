@@ -46,7 +46,7 @@ A array with one or more personal ids.
 ```bash
 curl -k -X POST \
 -H "Authorization: <INSERT-TOKEN>" \
--d '['26118642424']' \
+-d '["26118642424"]' \
 http://localhost:3000/personinfo
 ```
 
