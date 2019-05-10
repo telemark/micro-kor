@@ -50,7 +50,7 @@
   },
   "dependencies": {
     "express-jwt": "5.3.1",
-    "finalhandler": "1.1.1",
+    "finalhandler": "1.1.2",
     "kor-client": "1.0.0",
     "markdown-it": "8.4.2",
     "micro": "9.3.4",
