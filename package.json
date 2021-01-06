@@ -40,7 +40,7 @@
   "homepage": "https://github.com/telemark/micro-kor#readme",
   "devDependencies": {
     "ava": "3.9.0",
-    "axios": "0.19.2",
+    "axios": "0.21.1",
     "coveralls": "3.1.0",
     "dotenv": "8.2.0",
     "micro-dev": "3.0.0",
