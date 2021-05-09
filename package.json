@@ -42,7 +42,7 @@
     "ava": "3.9.0",
     "axios": "0.19.2",
     "coveralls": "3.1.0",
-    "dotenv": "8.2.0",
+    "dotenv": "8.6.0",
     "micro-dev": "3.0.0",
     "nyc": "15.1.0",
     "standard": "14.3.4",
