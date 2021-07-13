@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:10 as base
+FROM mhart/alpine-node:15 as base
 WORKDIR /usr/src
 COPY package.json /usr/src/
 RUN npm i --production
