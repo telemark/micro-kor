@@ -49,7 +49,7 @@
     "test-listen": "1.1.0"
   },
   "dependencies": {
-    "express-jwt": "6.0.0",
+    "express-jwt": "6.1.2",
     "finalhandler": "1.1.2",
     "kor-client": "1.0.0",
     "markdown-it": "8.4.2",
